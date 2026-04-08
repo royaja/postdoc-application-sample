@@ -1,0 +1,40 @@
+RESULTS SUMMARY
+
+OVERVIEW OF THE ANALYTIC SAMPLE
+
+The portfolio sample contains 580 posts from 11 political actors during the first COVID-19 lockdown period in Norway. The mean number of interactions per post was 1,165.2, while the median was 498. That gap suggests a strongly skewed interaction distribution, which is what platform engagement data usually look like.
+
+The actor with the largest number of posts in the sample was Bjørnar Moxnes with 104 posts, followed by Audun Lysbakken with 81 posts.
+
+POST TYPES
+
+Link posts were the most common post type by volume, followed by photo posts, video posts, live videos, and status posts.
+
+The descriptive figure on interaction levels by post type suggests that photo posts performed best on average, with video posts also doing relatively well. The model outputs point in the same direction. In the negative binomial model, photo posts were associated with an incidence rate ratio of about 1.90 relative to the reference category, and video posts with an incidence rate ratio of about 1.31.
+
+STRATEGY PATTERNS
+
+The most common coded strategy was self-enhancement, which appeared in 54.3 percent of posts. Interorganizational relationships followed at 48.8 percent.
+
+Several descriptive patterns stand out.
+
+Self-enhancement appeared often and was associated with higher average interactions when present than when absent.
+Excellence also showed a modest descriptive advantage when present.
+By contrast, framing the organization, framing the crisis, action, and interorganizational relationships all showed lower average interactions when present than when absent.
+
+These are descriptive differences only, but they are useful for showing how the strategy categories distribute across posts and how they line up with interaction levels.
+
+MODEL RESULTS
+
+The two model specifications broadly point to the same core patterns.
+
+First, follower size was by far the clearest predictor of interaction levels.
+Second, defensive communication and self-enhancement were the strategy variables most clearly associated with higher interactions.
+Third, interorganizational relationships were associated with lower interaction levels in the negative binomial model.
+Fourth, the simple COVID keyword indicator did not show a clear association with higher interaction levels.
+
+INTERPRETATION
+
+Taken together, the outputs suggest that interaction levels during the first lockdown period were shaped less by whether a post merely referenced COVID and more by a combination of audience size, post format, and certain communication styles.
+
+That does not support strong causal claims. The repository does not observe exposure directly, and platform interactions reflect both user response and platform distribution. Still, the results give a plausible descriptive picture of what tended to travel further in this bounded crisis period.

@@ -1,0 +1,40 @@
+MEASUREMENT AND CODING
+
+STRATEGY VARIABLES
+
+The strategy variables used in this repository were not created from scratch for this sample alone. They build on coding work developed during the doctoral dissertation and are used here in a compact applied form.
+
+The variables included in this portfolio sample are:
+
+defensive
+excellence
+framing_crisis
+self_enhancement
+framing_organization
+routine_communication
+accommodative
+interorganizational_relationships
+action
+
+In the analysis script, these variables are recoded to numeric 0/1 form where needed so that they can be summarized and used in the model specifications.
+
+WHAT THE CATEGORIES ARE DOING HERE
+
+For portfolio purposes, the categories serve two roles.
+
+First, they show how a hand-coded content layer can be integrated into a reproducible R workflow.
+Second, they make it possible to compare not only actors and post types, but also communication strategies, which is substantively closer to the doctoral project from which the coding logic emerged.
+
+The broader research context for this coding logic also overlaps with related work on platformed political communication during COVID-19, including Jacobsen and Larsson (2024).
+
+COVID KEYWORD VARIABLE
+
+The repository also includes a simple text-based indicator for COVID-related posts. This variable is intentionally simple. It is a keyword flag, not a full content classification model. That means it is useful for rough descriptive comparison, but it should not be treated as a deep semantic measure.
+
+WHY THIS MATTERS IN A CODE SAMPLE
+
+A good portfolio repository should show more than basic plotting. It should show how substantive concepts are translated into variables, how those variables are documented, and how analytical boundaries are stated clearly. The coding structure in this repository was kept for that reason.
+
+References cited in this note
+
+Jacobsen, R. A., and Larsson, A. O. (2024). Business as usual? Assessing amplified political posts across social media platforms during the COVID-19 pandemic. Social Media + Society, 10(4), 20563051241301203. https://doi.org/10.1177/20563051241301203

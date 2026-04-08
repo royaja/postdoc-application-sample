@@ -1,0 +1,15 @@
+DATA DESCRIPTION
+
+This repository draws on a platform export originally retrieved from CrowdTangle in December 2022. For the present sample, the analysis is limited to Facebook posts published between March 12 and May 12, 2020. That restriction yields 580 posts from 11 Norwegian political actors.
+
+Within this bounded period, the material can be read in two related ways. First, it is close to register-style data for the defined analytic window because it contains all posts captured from the included politician pages in that period. Second, it remains an imperfect form of panel-like platform data because the observed interactions do not map cleanly onto exposure, audience composition, or stable sampling conditions. That caution follows Diaz, Gamon, Hofman, Kiciman, and Rothschild (2016), who describe online and social media data as an imperfect continuous panel survey.
+
+The data were restricted to Norwegian politician pages administered from Norway. Organizations, media pages, and other page types were excluded. The sample is therefore intentionally narrow and should be read as a focused political communication sample rather than as a general Facebook sample.
+
+Several variables were recoded for analysis. Identifiers and numeric fields were standardized, post types were simplified, and a small number of page-level issues were repaired. The username for Trygve Slagsvold Vedum was missing in the export and was repaired to avoid splitting actor counts. The page label for Bjørnar Moxnes was also simplified by removing the party label from the page name field.
+
+The original export is not shared in this repository. The repository instead includes derived data files, code, figures, and documentation notes.
+
+References cited in this note
+
+Diaz, F., Gamon, M., Hofman, J. M., Kiciman, E., and Rothschild, D. (2016). Online and social media data as an imperfect continuous panel survey. PLOS ONE, 11(1), e0145406. https://doi.org/10.1371/journal.pone.0145406

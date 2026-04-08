@@ -1,0 +1,37 @@
+SCOPE AND DELIMITATION
+
+WHY THE SAMPLE WAS LIMITED TO THE FIRST LOCKDOWN PERIOD
+
+The central choice in this repository is the decision to limit the analysis to the first COVID-19 lockdown period in Norway. That choice has both practical and analytical reasons.
+
+First, a bounded crisis period creates a cleaner analytical frame. The first lockdown was a moment of unusually intense public attention, rapid institutional response, and high communication volume. That makes it a useful test case for a compact portfolio sample.
+
+Second, the time boundary makes the workflow easier to inspect. A shorter window reduces the number of moving parts and makes it easier to see how the cleaning, recoding, summaries, and models fit together.
+
+Third, this type of boundary is common in COVID-19 communication research. Related work has often divided the pandemic into critical periods or lockdown phases rather than treating the entire period as one undifferentiated stretch of time. See, for example, Fiskvik, Bjarkø, and Ihlen (2023) and Jacobsen and Larsson (2024).
+
+At the same time, the choice has costs. A bounded lockdown sample cannot capture longer-term adaptation, fatigue effects, or phase shifts in political communication. The repository is therefore best read as a focused slice of crisis communication rather than a full-period account.
+
+WHY THE DATA WERE LIMITED TO NORWEGIAN POLITICIANS
+
+The repository was designed as a political communication sample, not as a general Facebook sample. Limiting the data to politician pages administered from Norway makes the case coherent and reduces noise from organizations, media actors, and non-political pages.
+
+This also fits the broader dissertation logic, where Norway is treated as a useful case for studying crisis communication in a high-capacity, high-trust political setting.
+
+WHY THE REPOSITORY SHARES DERIVED FILES RATHER THAN THE ORIGINAL EXPORT
+
+The original Facebook export is not included. That is partly a legal and practical matter, but it is also a judgment about what belongs in a portfolio repository. The main aim here is to show analytical workflow, documentation quality, and care in handling platform data.
+
+The derived outputs are enough to inspect the logic of the analysis. They show the scope of the sample, the descriptive patterns, and the model results, while avoiding redistribution of the underlying export.
+
+WHY THE MODELS SHOULD BE READ CAUTIOUSLY
+
+The models are useful as descriptive association models. They are not designed to identify causal effects. Platform interactions are shaped by many factors that are not directly observed here, including unequal exposure, algorithmic ranking, timing effects, and the broader political context.
+
+For that reason, the wording throughout the repository stays with terms such as associated with, linked to, and suggests.
+
+References cited in this note
+
+Fiskvik, J. T., Bjarkø, A. V., and Ihlen, Ø. (2023). Trustworthiness over time on Twitter: Three critical periods for the Norwegian health authorities and political leadership during the COVID-19 pandemic. Social Media + Society, 9(2), 20563051231179689. https://doi.org/10.1177/20563051231179689
+
+Jacobsen, R. A., and Larsson, A. O. (2024). Business as usual? Assessing amplified political posts across social media platforms during the COVID-19 pandemic. Social Media + Society, 10(4), 20563051241301203. https://doi.org/10.1177/20563051241301203

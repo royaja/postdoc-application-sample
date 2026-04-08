@@ -1,0 +1,35 @@
+RESEARCH LOG
+
+This file records the logic of the workflow in a compact and inspectable form. It is not a full lab notebook, but it is detailed enough to show how the sample was defined and how the main outputs were produced.
+
+Entry 1. Initial scope
+
+The full Facebook export covered a much longer period than the portfolio sample required. For the application sample, the analysis was deliberately narrowed to the first COVID-19 lockdown period in Norway. The aim was to work with a bounded crisis period rather than a long multi-phase timeline.
+
+Entry 2. Case and platform restriction
+
+The data were restricted to Norwegian politician pages administered from Norway. This removed organizations, media pages, and other page types not relevant to the sample. The result is a cleaner actor set for a portfolio analysis focused on political communication.
+
+Entry 3. Cleaning and variable handling
+
+The import script cleaned variable names, retained a smaller set of columns, and standardized some identifiers and numeric variables. A few actor-name issues were also repaired so that counts by actor would not be distorted by empty or inconsistent page fields.
+
+Entry 4. Time window
+
+The scripts define the analytic window as March 12, 2020, to May 12, 2020. That period captures the first lockdown phase and gives the sample a clear substantive boundary. It also keeps the scale manageable for a portfolio submission.
+
+Entry 5. Derived variables
+
+A smaller set of variables was then prepared for analysis. This included a simplified post-type measure, a log-transformed interaction variable, weekday indicators, and a keyword-based COVID marker built from post text.
+
+Entry 6. Strategy variables
+
+The strategy variables used in the later summaries and models were carried over from coding routines developed during the doctoral dissertation. In this repository, they are used as applied analytical categories rather than reintroduced from first principles.
+
+Entry 7. Descriptive outputs
+
+The first stage of analysis focused on descriptive summaries. This included post counts by actor, post counts by type, the distribution of strategy variables, and interaction levels across those categories.
+
+Entry 8. Modeling step
+
+Two simple models were estimated. The linear model was used as a straightforward baseline on logged interactions. The negative binomial model was added because interaction counts are skewed and overdispersed, which is typical of platform engagement data.
